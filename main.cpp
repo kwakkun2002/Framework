@@ -7,5 +7,6 @@ int main()
 {
 	Framework& f = Framework::GetInstance();
 	f.Run(new GameScene,L"¥Î≥≠≈ı", 750, 500, false);
+	printf("change");
 	return 0;
 }
